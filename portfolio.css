@@ -273,3 +273,73 @@ iframe {
 
 
 }
+
+@media only screen and (max-width: 64em) {
+  body { margin: 0;
+  background-color: #FFFFFF;
+  }
+
+  #wrapper { min-width: 0;
+    width: auto;
+    box-shadow: none;
+  }
+
+  main { margin-left: 0;
+  }
+
+
+  footer {
+    margin-left: 0;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 37.5em) {
+  #header {
+    padding-top: 1em;
+  }
+
+  main {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 60%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  label {
+    float: none;
+    text-align: left;
+    }
+
+  input[type="submit"] {
+    margin-left: 0;
+  }
+
+  .gallerytext {
+    color: #F7F0CD;
+  font-size: 20px;
+  position: absolute;
+  text-align: left;
+  padding-top: 75%;
+  padding-left: 10%;
+  }
+
+  iframe {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+  }
+
+}
